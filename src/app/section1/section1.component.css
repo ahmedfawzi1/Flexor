@@ -1,0 +1,152 @@
+.header-caption img {
+  width: 100%;
+  height: 1300px;
+  position: absolute;
+}
+
+@media (max-width: 600px) {
+
+  .header-caption h1,
+  .header-caption p {
+    text-align: right;
+    margin-left: 15px;
+  }
+
+  .card .fa-hand-holding-dollar,
+  .fa-coins,
+  .fa-hotel {
+    margin-right: 85px;
+  }
+
+  .card .card-body {
+    margin-left: 0px;
+  }
+
+  .card {
+    text-align: center;
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-caption img {
+    width: 100%;
+    height: 1300px;
+    position: absolute;
+    opacity: 0;
+    background-color: black;
+
+  }
+}
+
+.header {
+  position: absolute;
+  top: 25px;
+}
+
+.header-caption h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 22px;
+}
+
+.header-caption p {
+  font-size: small;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  opacity: 0.7;
+  padding: 0px 45px;
+}
+
+.header-card {
+  top: 115px;
+  font-family: 'Merriweather', serif;
+}
+
+.card {
+  font-size: medium;
+  opacity: 0.9;
+  border-radius: 4px 20px 4px 20px;
+
+}
+
+.card a:hover {
+  background-color: #3e8e41;
+  color: white !important;
+  padding: 8px 20px;
+  border-radius: 50px;
+}
+
+.header-card .col-md-4 {
+  text-align: -webkit-center;
+}
+
+.crerdit-card {
+  position: absolute;
+  top: 520px;
+}
+
+.crerdit-card p {
+  font-size: small;
+  opacity: 0.7;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.crerdit-card button {
+  border-radius: 50px;
+  padding: 5px 35px;
+}
+
+.crerdit-card h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 25px;
+}
+
+.cc-body {
+  top: 750px;
+}
+
+.svg-inline--fa {
+  font-size: px;
+  color: #3e8e41;
+  height: 2em;
+  opacity: 0.7;
+}
+
+.cc-body h5 {
+  margin-top: 5px;
+  font-size: small;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.cc-body p {
+  font-size: small;
+  opacity: 0.7;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cc-body img {
+  width: 420px;
+  height: 420px;
+  top: -100px;
+  margin-left: 10px;
+  position: absolute;
+}
+
+@media (max-width: 600px) {
+  .cc-header {
+    text-align: center;
+    margin-left: 28px;
+  }
+
+  .cc-body img {
+    width: 420px;
+    height: 420px;
+    text-align: center;
+  }
+
+  .cc-body .svg-inline--fa,
+  h5,
+  .cc-body p {
+    margin-left: 70px;
+  }
+}

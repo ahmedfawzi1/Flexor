@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Flexor"
+    }
+  },
+  "defaultProject": "Flexor",
+  "cli": {
+    "analytics": "bd30224e-96c5-4525-a417-6d84cea17697"
+  }
 }

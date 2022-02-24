@@ -1,0 +1,79 @@
+.header-name h1 a {
+  text-decoration: none;
+  color: rgb(189, 0, 0);
+  font-size: 32px;
+  margin: 0;
+  line-height: 0;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 10px;
+
+}
+
+.header-name h1 nav {
+  position: absolute;
+}
+
+@media (max-width: 600px) {
+  .header-name nav form {
+    width: 100%;
+  }
+}
+
+.header-name nav button {
+  border-radius: 50%;
+  font-size: large;
+}
+
+.header-name nav button a {
+  color: white;
+}
+
+.header-name nav input {
+  font-size: small;
+  opacity: 0.6;
+}
+
+
+img {
+  width: 100%;
+  height: 100vh;
+}
+
+@media (max-width: 600px) {
+  img {
+    width: 100%;
+    height: 100vh;
+    opacity: 0;
+
+  }
+}
+
+.header-caption {
+  position: absolute;
+  top: 240px;
+  margin-left: 20px;
+}
+
+.header-caption h1 {
+  font-family: 'Nanum Myeongjo', serif;
+
+}
+
+.header-caption p {
+  opacity: 0.6;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.started button {
+  border-radius: 100px;
+  padding: 6.5px 35px;
+  opacity: 0.8;
+}
+
+.started p {
+  display: inline-block;
+  margin-left: 5px;
+  opacity: 0.74;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
